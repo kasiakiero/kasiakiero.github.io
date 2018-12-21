@@ -3,7 +3,7 @@
 strona domyślna to:
 - index.html
 
-więc wystarczy wrzucać do tego pliku html.
+więc wystarczy wrzucać kod strony do tego pliku html.
 
 Żeby nie pisać html-a z palca, można się posłużyć jakimś generatorem stron statycznych, np.
 - [Jekyll](http://jekyllrb.com)
