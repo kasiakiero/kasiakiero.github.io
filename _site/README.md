@@ -1,5 +1,14 @@
-# urban-theme
+# kasiakiero.github.io
 
-This theme is a Jekyll port of http://erosie.net/ with some modifications. It is designed for visual artists.
+strona domyślna to:
+- index.html
 
-Live-Demo: http://narkotyk.net/
+więc wystarczy wrzucać kod strony do tego pliku html.
+
+Żeby nie pisać html-a z palca, można się posłużyć jakimś generatorem stron statycznych, np.
+- [Jekyll](http://jekyllrb.com)
+
+
+## TEMP - na razie wyświetla się strona http://architektura.muratorplus.pl
+
+To tak testowo. Można wykasować zawartość pliku index.html i w ogóle skasować folder architektura_test_files
