@@ -1,4 +1,4 @@
-# kasiakiero.github.io
+# [kasiakiero.github.io](https://kasiakiero.github.io)
 
 - strona wygenerowana dzięki: [Jekyll](http://jekyllrb.com)
 - polecam tutorial i docsy: [Jekyll tutorial & docs](https://jekyllrb.com/docs/step-by-step/08-blogging/)
