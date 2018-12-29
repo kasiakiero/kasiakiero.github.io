@@ -13,6 +13,13 @@
   - tytuł posta jest w kluczu title:
 
 
+## CSS-y
+
+bootstrap
+https://www.w3schools.com/bootstrap/default.asp
+
+carousel
+https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
 
 
 
