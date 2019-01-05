@@ -15,7 +15,10 @@
 
 ## CSS-y
 
-bootstrap
+bootstrap 4.2
+https://getbootstrap.com/docs/4.2/components/carousel/
+
+older bootstrap
 https://www.w3schools.com/bootstrap/default.asp
 
 carousel
