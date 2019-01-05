@@ -21,6 +21,8 @@ https://www.w3schools.com/bootstrap/default.asp
 carousel
 https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
 
+bg-img sizing
+https://www.w3schools.com/cssref/css3_pr_background-size.asp
 
-
-
+czcionka na stronę główną
+lato black
