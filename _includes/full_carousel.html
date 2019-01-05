@@ -1,6 +1,6 @@
 <div id="{{ include.name }}" class="carousel slide" data-ride="carousel">
  
-  <div class="carousel-inner">
+  <div class="carousel-inner" role="listbox">
     {% for picture in include.data %}
       {% if forloop.first == true %}
         {% assign active = "active" %}
@@ -8,9 +8,12 @@
         {% assign active = "" %}
       {% endif %}
         
-        <div class="carousel-item {{ active }}" data-interval="4000">
-          <img src="/assets/img/{{ picture.url }}" class="d-block w-100" alt="{{ picture.title }}">
+        <div class="carousel-item {{ active }}" style="background-image: url('{{ site.url }}/assets/img/{{ picture.url }}')">
         </div>
+
+<!--         <div class="carousel-item {{ active }}" data-interval="4000">
+          <img src="/assets/img/{{ picture.url }}" class="d-block w-100" alt="{{ picture.title }}">
+        </div> -->
 
     {% endfor %}
   </div>
@@ -30,9 +33,25 @@
 
 
 <style >
-html,body{height:100%;}
-.carousel,.carousel-item,.active{height:100%;}
-.carousel-inner{height:100%;}
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-  
+  /*@media (max-width: 1.0rem) {
+  .carousel-item {
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
+}
+*/
+
+
 </style>
