@@ -1,18 +1,79 @@
 ---
-layout: default
+layout: index
 ---
 
 <!-- {% include preview.html %} -->
 
-{% include full_carousel.html name="index_carousel" data=site.data.index_carousel %}
+<div class="banner_container">
+  {% include full_carousel.html name="index_carousel" data=site.data.index_carousel %}
 
+  <div class="col-sm-8"></div>
+  <nav class="navbar col-sm-4">
+    <div class="row navbar__header">
+      <span class="">KATARZYNA PRZYBYŁA</span>
+    </div>
+    <div class="row navbar__links">
+<!--         <span>
+        <a href="{{ site.baseurl }}{% link navigation/projects.html %}">PROJECTS</a></li>
+        <a href="{{ site.baseurl }}{% link navigation/about.html %}">ABOUT</a></li>
+        <a href="{{ site.baseurl }}{% link navigation/contact.html %}">CONTACT</a></li> 
+      </span> -->
+      <ul>
+        <li class="nav-item"><a href="{{ site.baseurl }}{% link navigation/projects.html %}">PROJECTS</a></li>
+        <li class="nav-item"><a href="{{ site.baseurl }}{% link navigation/about.html %}">ABOUT</a></li>
+        <li class="nav-item"><a href="{{ site.baseurl }}{% link navigation/contact.html %}">CONTACT</a></li> 
+      </ul>
 
-<!-- <div class="site-header site-header--lower">
-  <nav class="navbar">
-    <ul>
-      <li class="nav-item"><a href="{{ site.baseurl }}/">home</a></li>
-      <li class="nav-item"><a href="{{ site.baseurl }}/about/">about</a></li>
-    </ul>
+    </div>
   </nav>
 </div>
- -->
+
+
+<style>
+.bannerContainer {
+    position:relative; 
+    /*height:600px;*/
+    /*z-index: 1;*/
+}
+
+.navbar {
+    position:absolute;
+    bottom: 1em;
+    right: 0em;
+    padding-right: -5em;
+    padding-left: 2em;
+    margin-top: 2em;
+    z-index:10;
+    /*background:#fff;*/
+    width:100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5em;
+    font-weight: 900;
+    color: #FFF;
+    /*text-align: right;*/
+    /*float: right;*/
+    /*text-shadow: 4px 4px 4px #aaa;*/
+}
+
+.navbar__header {
+  font-size: 140%; 
+}
+
+.navbar__links {
+  text-align: left; 
+  display: inline-block;
+}
+
+.navbar__links .nav-item {
+  padding-right: 1.3em;
+  /*padding: 0em;*/
+}
+
+
+.navbar a {
+  text-decoration: none; /* no underline */
+  color: inherit;
+  outline: none;
+}
+
+</style>

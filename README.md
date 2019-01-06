@@ -23,6 +23,8 @@ https://www.w3schools.com/bootstrap/default.asp
 
 carousel
 https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
+https://getbootstrap.com/docs/4.2/components/carousel/
+
 
 bg-img sizing
 https://www.w3schools.com/cssref/css3_pr_background-size.asp
