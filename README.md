@@ -1,3 +1,10 @@
+# TODO
+
+- nawigacja
+- strony projektów
+- about i kontakt
+
+
 # [kasiakiero.github.io](https://kasiakiero.github.io)
 
 - strona wygenerowana dzięki: [Jekyll](http://jekyllrb.com)
