@@ -28,4 +28,7 @@ bg-img sizing
 https://www.w3schools.com/cssref/css3_pr_background-size.asp
 
 czcionka na stronę główną
-lato black
+https://fonts.google.com/specimen/Lato?selection.family=Lato:400,900
+
+stack html elements on top of each other
+https://www.quora.com/How-do-you-make-one-div-layer-show-over-another-in-HTML-CSS

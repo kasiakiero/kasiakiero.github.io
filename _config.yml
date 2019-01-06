@@ -1,8 +1,8 @@
 # Site settings
-title: Blog Kasi Kiero
+title: Katarzyna Przybyła Portfolio
 email: kasiakiero@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Moja strona domowa, będą tu fajne rzeczy
+  Katarzyna Przybyła
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kasiakiero.github.io/" # the base hostname & protocol for your site
 img_url: /assets/img/
