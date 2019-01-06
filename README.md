@@ -21,10 +21,9 @@ https://getbootstrap.com/docs/4.2/components/carousel/
 older bootstrap
 https://www.w3schools.com/bootstrap/default.asp
 
-carousel
+CAROUSEL
 https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
 https://getbootstrap.com/docs/4.2/components/carousel/
-
 
 bg-img sizing
 https://www.w3schools.com/cssref/css3_pr_background-size.asp
@@ -34,3 +33,6 @@ https://fonts.google.com/specimen/Lato?selection.family=Lato:400,900
 
 stack html elements on top of each other
 https://www.quora.com/How-do-you-make-one-div-layer-show-over-another-in-HTML-CSS
+
+FLEXBOX
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
