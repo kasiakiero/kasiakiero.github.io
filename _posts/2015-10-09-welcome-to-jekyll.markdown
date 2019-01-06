@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  Tytuł posta xD
-date:   2015-10-09 15:39:40
 preview: emile-perron-190221_thumb.jpg
 ---
 

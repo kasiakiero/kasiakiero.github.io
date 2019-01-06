@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Tytuł posta hop
-date:   2015-10-06 15:39:40
-preview: sleek_thumb.jpg
+<!-- title:  Tytuł posta hop -->
+<!-- date:   2015-10-06 15:39:40 -->
+preview: "calosc/B_min.jpg"
 ---
 
 ![Picture 1]({{site.img_url}}posts/sleek.jpg)

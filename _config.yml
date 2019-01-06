@@ -12,6 +12,10 @@ title_image: title_image.jpg # najlepiej coś w rozmiarze 500x150px
 github_username:  kasiakiero
 facebook_username: kasiakiero
 
+collections:
+  posts:
+    output: true
+    permalink: /projects/:title/
 
 # Build settings
 markdown: kramdown
