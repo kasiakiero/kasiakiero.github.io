@@ -1,54 +1,52 @@
-<!-- UWAGA - to do bootstrap-a 3.x -->
-
 <div id="{{ include.name }}" class="carousel slide" data-ride="carousel">
  
   <ol class="carousel-indicators">
    {% for picture in include.data %}
-     {% if forloop.first == true %}
-       <li data-target="#{{ include.name }}" data-slide-to="0" class="active"></li>
-     {% else %}
-       <li data-target="#{{ include.name }}" data-slide-to="{{ forloop.index0 }}"></li>
-     {% endif %}
+     
+      {% if forloop.first == true %}
+        {% assign active = "active" %}
+        {% assign index0 = "0" %}
+      {% else %}
+        {% assign active = "" %}
+        {% assign active = forloop.index0 %}
+      {% endif %}
+
+       <li data-target="#{{ include.name }}" data-slide-to="{{ index0 }}" class="{{ active }}"></li>
+
    {% endfor %}
   </ol>
+
   <div class="carousel-inner" role="listbox">
     {% for picture in include.data %}
+      
       {% if forloop.first == true %}
-        <div class="item active">
-          {% if picture.title %}
-            <img src="/assets/img/{{ picture.url }}" alt="{{ picture.title }}">
-          {% else %}
-            <img src="/assets/img/{{ picture.url }}">
-          {% endif %}
-          {% if picture.caption %}
-            <div class="carousel-caption">
-              {{ picture.caption }}
-            </div>
-          {% endif %}
-        </div>
+        {% assign active = "active" %}
       {% else %}
-        <div class="item">
-          {% if picture.title %}
-            <img src="/assets/img/{{ picture.url }}" alt="{{ picture.title }}">
-          {% else %}
-            <img src="/assets/img/{{ picture.url }}">
-          {% endif %}
-          {% if picture.caption %}
-            <div class="carousel-caption">
-              {{ picture.caption }}
-            </div>
-          {% endif %}
-        </div>
+        {% assign active = "" %}
       {% endif %}
-    {% endfor %}
- </div>
 
- <a class="left carousel-control" href="#{{ include.name }}" role="button" data-slide="prev">
- <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
- <span class="sr-only">Poprzedni</span>
- </a>
- <a class="right carousel-control" href="#{{ include.name }}" role="button" data-slide="next">
- <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
- <span class="sr-only">Następny</span>
- </a>
+      <div class="item {{ active }}">
+        {% if picture.title %}
+          <img src="/assets/img/{{ picture.url }}" alt="{{ picture.title }}">
+        {% else %}
+          <img src="/assets/img/{{ picture.url }}">
+        {% endif %}
+        {% if picture.caption %}
+          <div class="carousel-caption">
+            {{ picture.caption }}
+          </div>
+        {% endif %}
+      </div>
+
+    {% endfor %}
+  </div>
+
+  <a class="left carousel-control" href="#{{ include.name }}" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  <span class="sr-only">Poprzedni</span>
+  </a>
+  <a class="right carousel-control" href="#{{ include.name }}" role="button" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  <span class="sr-only">Następny</span>
+  </a>
 </div>
