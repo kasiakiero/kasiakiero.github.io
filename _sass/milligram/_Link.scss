@@ -16,6 +16,19 @@ a {
 
 	&:focus,
 	&:hover {
-		color: $color-secondary;
+		// color: $color-secondary;
 	}
+}
+
+
+.navbar a {
+  text-decoration: none; /* no underline */
+  color: inherit;
+  outline: none;
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
 }
