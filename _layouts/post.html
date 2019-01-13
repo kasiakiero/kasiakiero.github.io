@@ -11,24 +11,31 @@ layout: default
     {{ content }}
   </article>
 
-  <div class="lower_navbar">
+  <nav class="navbar">
+    <ul>
+      <div class="row">
+        <div class="column column-33 text-right">
+        {% if page.next.url %}
+          <li class="nav-item"><a href="{{ page.next.url | prepend: site.baseurl }}">&laquo;</a></li>
+        {% endif %}
+        </div>
+        <div class="column column-33 text-center">
+          <li class="nav-item"><a href="{{ site.baseurl }}{% link navigation/projects.html %}">PROJECTS</a></li>
+        </div>
+        <div class="column column-33 text-left">
+        {% if page.previous.url %}
+          <li class="nav-item"><a href="{{ page.previous.url | prepend: site.baseurl }}">&raquo;</a></li>
+        {% endif %}
+        </div>
 
-  <div class="post-nav">
-    {% if page.next.url %}
-      <a class="nav-item" href="{{ page.next.url | prepend: site.baseurl }}">&laquo; Prev</a>
-    {% endif %}
-    {% if page.previous.url %}
-      <a class="nav-item" href="{{ page.previous.url | prepend: site.baseurl }}">Next &raquo;</a>
-    {% endif %}
-  </div>
+      </div>
+    </ul>
+  </nav>
     
-    {% include lower_navbar.html %}
-  </div>
-
 </div>
 
-
 <style type="text/css">
+  {% include lower_navbar.css %}
   
 .post-title {
   font-size: 5em;

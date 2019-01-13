@@ -11,11 +11,28 @@ permalink: /projects/
 
 
 <!-- <div class=""> -->
-  {% include lower_navbar.html %}
+
+  <nav class="navbar">
+    <ul>
+      <div class="row">
+        <div class="column column-33 text-right">
+          <li class="nav-item"><a href="{{ site.baseurl }}{% link index.html %}">MAIN</a></li>
+        </div>
+        <div class="column column-33 text-center">
+          <li class="nav-item"><a href="{{ site.baseurl }}{% link navigation/about.html %}">ABOUT</a></li>
+        </div>
+        <div class="column column-33 text-left">
+          <li class="nav-item"><a href="{{ site.baseurl }}{% link navigation/contact.html %}">CONTACT</a></li>
+        </div>
+
+      </div>
+    </ul>
+  </nav>
 
 <!-- </div> -->
 
 <style type="text/css">
+  {% include lower_navbar.css %}
 
 .preview_container {
   /*margin: 0 auto;*/
