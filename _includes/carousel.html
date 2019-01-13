@@ -25,11 +25,11 @@
         {% assign active = "" %}
       {% endif %}
 
-      <div class="item {{ active }}">
+      <div class="carousel-item {{ active }}">
         {% if picture.title %}
-          <img src="/assets/img/{{ picture.url }}" alt="{{ picture.title }}">
+          <img src="/assets/img/{{ picture.url }}" class="d-block w-100" alt="{{ picture.title }}">
         {% else %}
-          <img src="/assets/img/{{ picture.url }}">
+          <img src="/assets/img/{{ picture.url }}" class="d-block w-100">
         {% endif %}
         {% if picture.caption %}
           <div class="carousel-caption">
@@ -40,13 +40,12 @@
 
     {% endfor %}
   </div>
-
-  <a class="left carousel-control" href="#{{ include.name }}" role="button" data-slide="prev">
-  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-  <span class="sr-only">Poprzedni</span>
+  <a class="carousel-control-prev" href="#{{ include.name }}" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#{{ include.name }}" role="button" data-slide="next">
-  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-  <span class="sr-only">Następny</span>
+  <a class="carousel-control-next" href="#{{ include.name }}" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
   </a>
 </div>
