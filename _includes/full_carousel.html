@@ -18,7 +18,7 @@
     {% endfor %}
   </div>
 
-<div style="opacity: 0.01;">
+<div class="carousel-controls">
   <a class="carousel-control-prev" href="#{{ include.name }}" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <!-- <span class="sr-only">Previous</span> -->
@@ -41,6 +41,10 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.carousel-controls {
+  opacity: 0.01;
 }
 
   /*@media (max-width: 1.0rem) {
