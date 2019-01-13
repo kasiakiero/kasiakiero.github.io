@@ -14,7 +14,7 @@ layout: default
   <nav class="navbar">
     <ul>
       <div class="row">
-        <div class="column column-33 text-right">
+        <div class="column column-33 text-sm-right text-center">
         {% if page.next.url %}
           <li class="nav-item"><a href="{{ page.next.url | prepend: site.baseurl }}">&laquo;</a></li>
         {% endif %}
@@ -22,7 +22,7 @@ layout: default
         <div class="column column-33 text-center">
           <li class="nav-item"><a href="{{ site.baseurl }}{% link navigation/projects.html %}">PROJECTS</a></li>
         </div>
-        <div class="column column-33 text-left">
+        <div class="column column-33 text-sm-left text-center">
         {% if page.previous.url %}
           <li class="nav-item"><a href="{{ page.previous.url | prepend: site.baseurl }}">&raquo;</a></li>
         {% endif %}
@@ -47,6 +47,9 @@ layout: default
   width:100%
 }
 
+.post {
+  height: 100%;
+}
 
 /*  
 .post-title {
