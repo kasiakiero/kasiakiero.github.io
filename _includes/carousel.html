@@ -1,4 +1,4 @@
-<div id="{{ include.name }}" class="carousel slide" data-ride="{{ include.data_ride | default: '' }}">
+<div id="{{ include.name }}" class="carousel slide" data-ride="{{ include.data_ride | default: 'false' }}" data-interval="{{ include.data_interval | default: 'false' }}">
  
   <ol class="carousel-indicators">
    {% for picture in include.data %}
