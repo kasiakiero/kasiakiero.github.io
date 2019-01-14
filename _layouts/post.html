@@ -15,19 +15,13 @@ layout: default
     <ul>
       <div class="row">
         <div class="column column-33 text-sm-right text-center">
-        {% if page.next.url %}
-          <li class="nav-item"><a href="{{ page.next.url | prepend: site.baseurl }}">&lt;
-          </a></li>
-        {% endif %}
-        </div>
-        <div class="column column-33 text-center">
           <li class="nav-item"><a href="{{ site.baseurl }}{% link navigation/projects.html %}">PROJECTS</a></li>
         </div>
+        <div class="column column-33 text-center">
+          <li class="nav-item"><a href="{{ site.baseurl }}{% link navigation/about.html %}">ABOUT</a></li>
+        </div>
         <div class="column column-33 text-sm-left text-center">
-        {% if page.previous.url %}
-          <li class="nav-item"><a href="{{ page.previous.url | prepend: site.baseurl }}">&gt;     
-          </a></li>
-        {% endif %}
+          <li class="nav-item"><a href="{{ site.baseurl }}{% link navigation/contact.html %}">CONTACT</a></li>
         </div>
 
       </div>
@@ -59,11 +53,11 @@ layout: default
 
 
 .carousel-control-prev-icon {
- background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23bd4351' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23bd4351' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 /*
