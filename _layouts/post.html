@@ -16,7 +16,8 @@ layout: default
       <div class="row">
         <div class="column column-33 text-sm-right text-center">
         {% if page.next.url %}
-          <li class="nav-item"><a href="{{ page.next.url | prepend: site.baseurl }}">&laquo;</a></li>
+          <li class="nav-item"><a href="{{ page.next.url | prepend: site.baseurl }}">&lt;
+          </a></li>
         {% endif %}
         </div>
         <div class="column column-33 text-center">
@@ -24,7 +25,8 @@ layout: default
         </div>
         <div class="column column-33 text-sm-left text-center">
         {% if page.previous.url %}
-          <li class="nav-item"><a href="{{ page.previous.url | prepend: site.baseurl }}">&raquo;</a></li>
+          <li class="nav-item"><a href="{{ page.previous.url | prepend: site.baseurl }}">&gt;     
+          </a></li>
         {% endif %}
         </div>
 
@@ -39,7 +41,7 @@ layout: default
 
 .carousel-inner {
   /*max-width:900px; */
-  max-height:800px !important;
+  /*max-height:800px !important;*/
   /*max-height:1200px;*/
 } 
 
@@ -54,10 +56,39 @@ layout: default
   /*position: absolute;*/
 }
 
-/*  
-.post-title {
-  font-size: 5em;
 
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23bd4351' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
-*/
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23bd4351' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/*
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}*/
+
 </style>
