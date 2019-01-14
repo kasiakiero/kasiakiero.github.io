@@ -20,7 +20,7 @@
   - tytuł posta jest w kluczu title:
 
 
-## CSS-y
+## CSS-y 
 
 bootstrap 4.2
 https://getbootstrap.com/docs/4.2/components/carousel/
