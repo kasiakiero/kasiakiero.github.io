@@ -4,7 +4,9 @@ title: about
 permalink: /about/
 ---
 
-<img src="/assets/img/INFO.jpg"/>
+<div class="img-container">
+  <img src="/assets/img/INFO.jpg"/>
+</div>
 
   <nav class="navbar">
     <ul>
@@ -25,4 +27,39 @@ permalink: /about/
 
 <style type="text/css">
   {% include lower_navbar.css %}
+
+.img-container img {
+  /*background: url('{{ site.url }}/assets/img/INFO.jpg') no-repeat scroll center top transparent;*/
+  /*height: 100px;*/
+  min-width: 1400px;
+}
+
+@media(max-width: 1100px) {
+  .img-container img {
+    margin-left: -450px;
+    /*max-width: 44em;*/
+    /*margin-right: -450px;*/
+  }
+}
+
+@media(max-height: 1200px) {
+  .navbar {
+    margin-top: -30px;
+  }
+  
+}
+
+@media(max-width: 44em) {
+  .navbar {
+    margin-top: -30px;
+  }
+
+  .img-container img {
+    margin-left: -450px;
+    /*max-width: 44em;*/
+    /*margin-right: -450px;*/
+  }
+  
+}
+
 </style>
