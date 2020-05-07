@@ -4,7 +4,7 @@ email: kasiakiero@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Katarzyna Przybyła
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kasiakiero.github.io/" # the base hostname & protocol for your site
+url: "https://katarzynaprzybyla.pl" # the base hostname & protocol for your site
 img_url: /assets/img/
 title_image: title_image.jpg # najlepiej coś w rozmiarze 500x150px
 google_analytics: UA-132351258-1
