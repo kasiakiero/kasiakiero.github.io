@@ -20,3 +20,6 @@ permalink: /projects/:title/
 
 # Build settings
 markdown: kramdown
+plugins:
+    - jekyll-sitemap
+    - jekyll-seo-tag

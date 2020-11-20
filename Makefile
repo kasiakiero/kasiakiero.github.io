@@ -1,3 +1,6 @@
+install:
+	bundle
+
 build_dev:
 	bundle exec jekyll build
 build_prod:
