@@ -1,0 +1,118 @@
+# - title: Projects # Title for the section
+#   layout: list # Type of content section (list/text)
+#   content:
+#     - layout: left
+#       border: weak  # Value of `weak` will display a weak border below this item. # Any 
+#                     # other value (or no value) means no border will be displayed
+#       title: Project name
+#       link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#       link_text: Link Text
+#       additional_links:
+#         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#           icon: fab fa-github
+#           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#           icon: fab fa-github
+#           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#       quote: >
+#         Short overview of the project (optional)
+#       description: | # this will include new lines to allow paragraphs
+#         Description about the work on/with the project
+# - title: Experience
+#   layout: list
+#   content:
+#     - layout: right
+#       title: Company name
+#       sub_title: Job title
+#       caption: Date Range (eg. November 2016 - present)
+#       link: Link to company (optional)
+#       quote: >
+#         Short description of the company (optional)
+#       description: | # this will include new lines to allow paragraphs
+#         Description of role
+# - title: Award
+#   layout: list
+#   content:
+#     - layout: top-right
+#       title: Institution name
+#       sub_title: Qualifications (eg. BA Performing Arts)
+#       caption: Date Range (eg. 2016 - 2019)
+#       quote: >
+#         Short institution or course description (optional)
+#       description: | # this will include new lines to allow paragraphs
+#         Description of qualification
+
+- title: Education
+  layout: list
+  content:
+    - layout: top-right
+      title: Wrocław University of Technology
+      sub_title: PhD Scholarship
+      caption: 2016 &mdash; present
+      # quote: >
+      #   Short institution or course description (optional)
+      # description: | # this will include new lines to allow paragraphs
+      #   Description of qualification
+    - layout: top-right
+      title: Silesian University of Technology
+      sub_title: Bachelor Scholarship
+      caption: 2004
+
+- title: Awards
+  layout: list
+  content:
+    - layout: left
+      title: Icemill - Pure Water for Global Sustainability
+      sub_title: Jacques Rougerie Foundation
+      caption: 2019
+      description: Jacques Rougerie Competition Special Mention
+    - layout: left
+      title: Bike Base                                      
+      sub_title:
+      caption: 2012
+      description: Final shortlisted Trimo Urban Crash
+    - layout: left
+      title: Icemill - Pure Water for Global Sustainability
+      sub_title: Global Warming Center
+      caption: 2018
+      description: 1st Place reThinking Competition
+    - layout: left
+      title: Icemill - Pure Water for Global Sustainability
+      sub_title: eVolo
+      caption: 2018
+      description: Honourable Mention eVolo Skyscraper Competition 
+    - layout: left
+      title: Message in a Bottle
+      sub_title: Ideas Forward
+      caption: 2018
+      description: "3rd Place 24h Competition: Ocean" 
+    - layout: left
+      title: Genesis - New generation of Colonization
+      sub_title: Laka Foundation
+      caption: 2017
+      description: Editors' Choice Laka Competition
+    - layout: left
+      title: Genesis - New generation of Colonization
+      sub_title: MFSW
+      caption: 2017
+      description: "Finalist of Breathtaking: 12. MFSW inSpiracje International Art Festival"
+    - layout: left
+      title: Nutshell of Life
+      sub_title:
+      caption: 2017
+      description: Top 10 Finalist IDEA Place and Displacement A Marketplace in Refugee Settlements
+    - layout: left
+      title: Loft interior design
+      sub_title: Graphisoft Center Poland 
+      caption: 2015
+      description: Special prize at Vasco interior design competition 
+    - layout: left
+      title: Baby Care Room Interior design competition
+      sub_title:
+      caption: 2013
+      description: 1st place Globe Trade Centre S.A.
+    - layout: left
+      title: Bike Base                                      
+      sub_title:
+      caption: 2012
+      description: Final shortlisted Trimo Urban Crash
