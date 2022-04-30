@@ -8,7 +8,7 @@
         {% assign active = "" %}
       {% endif %}
         
-        <div class="carousel-item {{ active }}" style="background-image: url('{{ site.url }}/assets/img/{{ picture.url }}')">
+        <div class="carousel-item {{ active }}" style="background-image: url('/assets/img/{{ picture.url }}')">
         </div>
 
 <!--         <div class="carousel-item {{ active }}" data-interval="4000">
@@ -47,7 +47,7 @@
   opacity: 0.01;
 }
 
-  /*@media (max-width: 1.0rem) {
+/*@media (max-width: 1.0rem) {
   .carousel-item {
     -webkit-background-size: contain;
     -moz-background-size: contain;
