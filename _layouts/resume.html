@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-{%- include head.html -%}
-<link rel="stylesheet" href="{{ '/assets/css/resume.css' | prepend: site.baseurl }}">
+{%- include head.html css="resume" -%}
 
 <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
 

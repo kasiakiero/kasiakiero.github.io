@@ -49,14 +49,18 @@
       title: Wrocław University of Technology
       sub_title: PhD Scholarship
       caption: 2016 &mdash; present
-      # quote: >
-      #   Short institution or course description (optional)
-      # description: | # this will include new lines to allow paragraphs
-      #   Description of qualification
+      quote: >
+        Architecture, Building & Planning PhD Project
+      description: | # this will include new lines to allow paragraphs
+        The Rotary Foundation offers scholarship funding through the Rotary Foundation Global Grants. The scholarships funds graduate-level coursework or research for one to four academic years.
     - layout: top-right
       title: Silesian University of Technology
       sub_title: Bachelor Scholarship
       caption: 2004
+      quote: >
+        Short institution or course description (optional)
+      description: | # this will include new lines to allow paragraphs
+        Description of qualification
 
 - title: Awards
   layout: list
