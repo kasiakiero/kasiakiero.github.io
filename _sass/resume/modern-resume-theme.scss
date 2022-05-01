@@ -4,13 +4,19 @@
 @import "dark";
 @import "icons";
 
+@media (min-width: 1200px) { 
+  .container {
+    max-width: 1170px;
+  }
+}
+
 .header-right p {
   margin-bottom: 3px;
 }
 
 .header-right a{
   color:inherit;
-  font-weight:500;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 767px) {
@@ -48,7 +54,7 @@
   }
 }
 
-.border-weak  {
+.border-weak {
   padding-bottom: 8px;
   border-bottom: dashed 1px #CCCCCC;
 }
@@ -58,12 +64,16 @@
   display: flex;
   flex-direction: row;
 
+  .content {
+    max-width: none;
+  }
   .details {
     display: flex;
     flex-direction: column;
     text-align: left;
     justify-content: center;
     vertical-align: middle;
+    max-width: none;
 
     p {
       margin-bottom: 3px;
@@ -72,7 +82,7 @@
       font-weight: 300;
 
       b {
-        font-weight: 500;
+        font-weight: 600;
       }
     }
 
@@ -100,20 +110,20 @@
 
     h4 {
       margin-bottom: 0.1rem;
-      font-weight: 500;
+      font-weight: 600;
 
       @media print {
         margin-bottom: 0.2rem;
       }
 
       a {
-        font-weight: 500;
+        font-weight: 600;
       }
     }
   }
 }
 
-.layout-right {
+.layout-right, .layout-top-right {
   flex-direction: row-reverse;
 }
 
