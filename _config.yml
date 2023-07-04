@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://katarzynaprzybyla.pl" # the base hostname & protocol for your site
 img_url: /assets/img/
 title_image: title_image.jpg # najlepiej coś w rozmiarze 500x150px
-google_analytics: UA-132351258-1
+google_analytics: G-YWZ4B05RC0
 
 # twitter_username: jekyllrb
 github_username:  kasiakiero
