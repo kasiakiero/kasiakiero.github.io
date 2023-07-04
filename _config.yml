@@ -23,3 +23,18 @@ markdown: kramdown
 plugins:
     - jekyll-sitemap
     - jekyll-seo-tag
+
+#https://jekyllrb.com/docs/configuration/options/
+exclude: [
+  "Makefile",
+  ".sass-cache/",
+  ".jekyll-cache/",
+  "gemfiles/",
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules/",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/"
+]
